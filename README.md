@@ -1,14 +1,22 @@
-<h1>나만의 감정 일기장(Emotion-Diary)</h1>
-# 나만의 감정일기장
-
 주소 : https://emotion-diary-pi-seven-76.vercel.app/
 
-내 감정을 기록하고, 다섯 가지 감정으로 표현할 수 있는 개인 일기장 프로젝트.
+## 🧩 기술 스택
 
-## 주요 기능
-- 일기 작성, 수정, 삭제
-- 감정 태그 5가지 선택 가능
-- 나만의 감정을 직관적으로 기록
+| 구분 | 기술 |
+|---|---|
+| Frontend | React, JavaScript, JSX |
+| Routing | React Router DOM |
+| State Management | useReducer, Context API |
+| Styling | CSS |
+| Build | Vite |
+| Storage | LocalStorage |
+| Code Quality | ESLint |
 
-## 기술 스택
-- Frontend: HTML/CSS/JS/REACT
+## 📌 프로젝트에서 활용한 기술
+
+- React 컴포넌트 기반 UI 설계
+- React Router DOM을 활용한 페이지 라우팅
+- Context API와 useReducer를 활용한 전역 상태 관리
+- LocalStorage를 활용한 일기 데이터 저장
+- Custom Hook을 활용한 일기 조회 및 페이지 타이틀 관리
+- 컴포넌트별 CSS 파일 분리로 스타일 관리
